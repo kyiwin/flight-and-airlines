@@ -1,5 +1,5 @@
 # flight-and-airlines
-Flight Issues and popular airlines
+Flight Issues and Popular Airlines
 
 Data visualization in this presentation will give insight to airlines and those who concern with flight business which area to improve,and investors will see which airlines are used the most.
 Tableau: https://public.tableau.com/views/FlightDelaysbyyear/Story1?:embed=y&:display_count=yes
