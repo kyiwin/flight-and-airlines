@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Tableau 8.0 JavaScript API On-Demand Tutorial Example</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="bootstrap.css" rel="stylesheet" media="screen">
+	<script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+	<script type= "text/javascript" src = "LessonOneEnd.js"></script>
+
+</head>
+<body>
+	<div class='container'>
+		<div class='row'>
+
+			<div class='span3'><img src='air_gif.gif' ></div>
+			<div class='span3'><img src='safety.jpeg' ></div>
+			<div class='span3'><img src='airlinesimg.png' ></div>
+			<div class='span3'><img src='delayimg.gif' ></div>
+
+			<h2 class='span14 pagination-centered'>Flight Issues and Popular Airlines</h2>
+			<iframe src="https://cdn.datamatic.io/runtime/echarts/3.7.2_237/embedded/index.html#id=111733956846591301231/1rDH4xheuRLJh_aprTldNpC89AwPMSZTj" frameborder="0" width="620" height="450" allowtransparency="true"></iframe>
+		</div>
+		<div class='row'><h3 class='offset3 span7 pagination-centered' id='sheetName'></h3></div>
+		<div class='row'>
+
+			<ul id = 'menu' class='nav nav-list offset1 span2'>
+
+			</ul>
+			<div id='viz'></div>
+			<script>
+				var vizDiv = document.getElementById('viz');
+				var vizURL = "https://public.tableau.com/views/FlightDelaysbyyear/Story1?:embed=y&:display_count=yes";
+				var options = {
+				};
+				viz = new tableau.Viz(vizDiv,vizURL,options);
+			</script>
+
+		</div>
+	</div>
+</body>
+</html>
