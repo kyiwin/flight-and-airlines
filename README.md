@@ -1,7 +1,7 @@
 # flight-and-airlines
 Flight Issues and popular airlines
 
-Data visualization in this presentation will give insight to airlines and those who concern with flight business which area to improve,and investors will see which airline is used the most. 
+Data visualization in this presentation will give insight to airlines and those who concern with flight business which area to improve,and investors will see which airlines are used the most. 
 
 Flight Issues 
 Delay - https://think.cs.vt.edu/corgis/csv/airlines/airlines.html
